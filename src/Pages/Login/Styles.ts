@@ -1,0 +1,44 @@
+import { StyleSheet } from 'react-native';
+
+export const Styles = StyleSheet.create({
+    Header: {
+        alignItems: 'center',
+        gap: 10,
+        Welcome: {
+            fontSize: 40,
+        }
+    },
+    Inputs: {
+        gap: 20,
+        alignItems: 'center',
+        width: '100%',
+    },
+    ButtonsContainer: {
+        gap: 15,
+        alignItems: 'center',
+        width: '100%',
+    },
+    LoginButton: {
+        padding: 10,
+        backgroundColor: '#0077B6',
+        width: '65%',
+        borderRadius: 10,
+        shadowColor: "#0077B6",
+        shadowOffset: {
+            width: 1,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4.84,
+        elevation: 5,
+    },
+    ForgotButton: {
+        padding: 10,
+        backgroundColor: '#7ae582',
+        width: '60%',
+        borderRadius: 10
+    },
+    CreateText: {
+        color: '#00a6fb'
+    }
+})
